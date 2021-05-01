@@ -34,7 +34,7 @@ v0.01, 04.30.2021: Frist draft
 . User Management
 . Billing and Subscription management
 
-plantuml::diagrams/comprehensive-diagram.puml[png]
+plantuml::diagrams/comprehensive-diagram.puml[svg]
 
 === System Design
 
