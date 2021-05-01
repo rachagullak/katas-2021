@@ -4,6 +4,33 @@ v0.01, 04.30.2021: Frist draft
 :toc:
 == Overview
 
+This is an RFE to address the urgent issues of the SysOps system and come up with a futuristic solution to make it reliable, maintainable and testable.
+
+== Problems to solve
+
+=== It’s a large monolith
+. Longer time to roll out changes
+. Brittle change process
+
+=== Some tickets doesn't show up at all as they are lost
+
+*Open questions:* +
+
+. Why are tickets being lost
+. Why  tickets routed to a wrong service person
+. What is the optimal performance metric that management will be interested in
+. How it will be stored
+. What type of data storage is needed to support solution knowledge base
+. How knowledge based will lbe search
+
+=== Some are wrongly assigned
+
+*Open questions:* +
+
+. Do they have skill-based assignments =?
+. Why service agent is being dispatched to a wrong location
+
+
 == Features
 
 == Scope
@@ -33,6 +60,10 @@ v0.01, 04.30.2021: Frist draft
 . Notifications
 . User Management
 . Billing and Subscription management
+
+include::components/customerManagement/README.adoc[leveloffset=+3]
+include::components/notifications/README.adoc[leveloffset=+3]
+include::components/reporting/README.adoc[leveloffset=+3]
 
 plantuml::diagrams/comprehensive-diagram.puml[svg]
 

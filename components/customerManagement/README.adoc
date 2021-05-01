@@ -1,0 +1,7 @@
+= Customer Management
+
+== Open Questions
+
+. Can the current data model remain same?
+. Can the current system design holds good for future?
+. Do any of the existing issues are originating out of the status quo of this component?

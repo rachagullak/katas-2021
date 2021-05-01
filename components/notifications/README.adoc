@@ -1,0 +1,12 @@
+= Notifications
+
+== Proposed Changes
+
+This component is a good candidate to separate from the monolith for `maintainability` and `testability`.
+This be made completely async by `streaming` the transactional data to synthesize a rule based notification triggers
+and their maintenance.
+
+== Open Questions
+
+. Can this be made completely async by streaming the transaction
+. Do any of the existing issues are originating out of the status quo of this component?
