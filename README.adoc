@@ -11,12 +11,30 @@ v0.01, 04.30.2021: Frist draft
 == Architecture
 
 === Users
+. SysOps Squad
+. SysOps Administrator
+. Customer
+. Business or execution team
+. System
 
 === Usecases
+. Administrator adds and maintain Sysops squad experts
+.. Locale
+.. Availability
+.. Skill
+. System bills customers on an annual basis when their support period ends
+. Customer card registration
 
 === Entities
 
 === Components
+. Ticketing System
+. Mobile Application for the SysOps squad
+. Notifications
+. User Management
+. Billing and Subscription management
+
+plantuml::diagrams/comprehensive-diagram.puml[]
 
 === System Design
 

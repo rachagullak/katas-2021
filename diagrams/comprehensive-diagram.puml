@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+cloud "Web Application" {
+  [REACT APP]
+  [Mobile APP]
+}
+
+package "API Gateway" {
+  [User API] as UAPI
+  [Ticketing API] as TAPI
+  [Payments API] as PAPI
+  [Billing&Subscription API] as BSAPI
+}
+
+node "Backeend Groups" {
+    package "Transactional Applications" {
+        [User Management Component] as UMC
+        [Ticketing Management Component] as TMC
+        [Payments Management Component] as PMC
+        [Billing&Subscription Management Component] as BSMC
+    }
+}
+
+database "MySql" {
+  folder "UserDB" {
+    [User Tables]
+  }
+
+   folder "TicketingDB" {
+     [Ticketing Tables]
+   }
+
+   folder "PaymentsDB" {
+     [Payments Tables]
+   }
+
+   folder "Billing&SubscriptionDB" {
+   [Billing&Subscription Tables]
+   }
+}
+
+[REACT APP] -> UAPI
+[REACT APP] -> TAPI
+[REACT APP] -> PAPI
+[REACT APP] -> BSAPI
+
+[Mobile APP] -> UAPI
+[Mobile APP] -> TAPI
+[Mobile APP] -> PAPI
+[Mobile APP] -> BSAPI
+
+UAPI -> UMC
+TAPI -> TMC
+PAPI -> PMC
+BSAPI -> BSMC
+
+UMC -> [User Tables]
+TMC -> [Ticketing Tables]
+PMC -> [Payments Tables]
+BSMC -> [Billing&Subscription Tables]
+
+@enduml
