@@ -1,0 +1,23 @@
+= Penultimate Electronics System Design
+Greg Klugerman <gkluger@gmail.com>; Larry <larry@codinglore.com>; Ramasubramaniam Subramanian; Kishore Kumar Rachagulla <kishore.rachagulla@gmail.com>
+v0.01, 04.30.2021: Frist draft
+:toc:
+== Overview
+
+== Features
+
+== Scope
+
+== Architecture
+
+=== Users
+
+=== Usecases
+
+=== Entities
+
+=== Components
+
+=== System Design
+
+== References
