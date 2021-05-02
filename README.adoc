@@ -9,6 +9,7 @@ This is an RFE to address the urgent issues of the SysOps system and come up wit
 == Problems to solve
 
 === It’s a large monolith
+. Web-based and call-based problem ticket entry issue due to availability issues
 . Longer time to roll out changes
 . Brittle change process
 
