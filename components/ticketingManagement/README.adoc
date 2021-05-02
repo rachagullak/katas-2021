@@ -1,5 +1,19 @@
 = Ticketing Management
 
+== Problem statement
+
+=== SysOps expert not showing up
+
+_The `sysops squad expert` is then notified via a text message that they have a new ticket. Once this happens an email or SMS text message is sent to the customer (based on their profile preference) that the expert is on their way._ +
+
+What is missing here is an acknowledgement back from the sysops squad expert whether he accepts the request or not so that it can be routed to someone else. This seems to be a reason for none showing up for maintenance.
+
+==== Proposed Solution
+
+. Instead of push we propose pull strategy for a reliable ticket processing
+. We will maintain a `ticket pool` based on local and `expertise`
+. SysOps expert will pull a ticket form the `ticket pool` and attends to it.
+. Once SysOps expert pull a ticket, customer is notified of his/her ticket assignment and the steps forward.
 
 === Opening Question
 . Is there an explicit link between `Ticket` and `SysOps_User`?
