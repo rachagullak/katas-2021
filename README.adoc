@@ -62,6 +62,7 @@ This is an RFE to address the urgent issues of the SysOps system and come up wit
 . Billing and Subscription management
 
 include::components/customerManagement/README.adoc[leveloffset=+3]
+include::components/ticketingManagement/README.adoc[leveloffset=+3]
 include::components/notifications/README.adoc[leveloffset=+3]
 include::components/reporting/README.adoc[leveloffset=+3]
 

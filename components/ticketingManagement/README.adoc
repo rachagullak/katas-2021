@@ -1,0 +1,6 @@
+= Ticketing Management
+
+
+=== Opening Question
+. Is there an explicit link between `Ticket` and `SysOps_User`?
+. How is `SysOps_User` expertise linked to `Ticket_type`?
