@@ -1,0 +1,150 @@
+== Domain Definition
+
+
+|===
+|Component (Int) |Component (Fun) |Domain |DB tables |DB Schema |Critical Attr |Second Attr| Notes
+
+|
+|Login
+|User Domain
+|
+|
+|Availability, PCI/PII Compliance
+|Scalability
+|
+
+|Customer Profile
+|
+|User Domain
+|
+|
+|Availability, PCI/PII Compliance
+|
+|
+
+|Expert Profile
+|
+|User Domain
+|
+|
+|
+|
+|
+
+|User maintenance
+|
+|User Domain
+|
+|
+|
+|
+|
+
+|KB maintenance
+|
+|KB Domain
+|
+|
+|
+|
+|
+
+|
+|KB Search
+|KB Domain
+|
+|
+|
+|
+|
+
+|Ticket
+|
+|Ticketing Domain
+|
+|
+|
+|
+|
+
+|
+|Ticket Assign
+|Ticketing Domain
+|
+|
+|
+|
+|
+
+|
+|Ticket Notify
+|Ticketing Domain
+|
+|
+|
+|
+|
+
+|
+|Ticket Route
+|Ticketing Domain
+|
+|
+|Availability
+|
+|
+
+|Support contract
+|
+|Platform Meta
+|
+|
+|
+|
+|
+
+|Survey
+|
+|Survey Domain
+|
+|
+|
+|
+|
+
+|Survey Templates
+|
+|Survey Domain
+|
+|
+|
+|
+|
+
+|
+|Survey notify
+|Survey Domain
+|
+|
+|
+|
+|
+
+|
+|Reporting
+|Reporting Domain
+|
+|
+|
+|
+|
+
+|Column 1, row 8
+|Column 2, row 8
+|Reporting Domain
+|
+|
+|
+|
+|
+|===

@@ -63,6 +63,7 @@ Current SysOps platform is facing issues due to concerns in below areas:
 === Entities
 
 === Components
+include::components/README.adoc[leveloffset=+3]
 . Ticketing System
 . Mobile Application for the SysOps squad
 . Notifications
