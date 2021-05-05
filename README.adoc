@@ -31,6 +31,13 @@ This is an RFE to address the urgent issues of the SysOps system and come up wit
 . Do they have skill-based assignments =?
 . Why service agent is being dispatched to a wrong location
 
+=== Ilities
+
+Current SysOps platform is facing issues due to concerns in below areas:
+
+. Reliability
+. Availability
+. Testability
 
 == Features
 
